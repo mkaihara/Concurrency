@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : addlist.cpp
+// Name        : addlist.hpp
 // Author      : Marcelo Kaihara
 // Version     :
 // Copyright   : 
@@ -60,7 +60,7 @@ T accumulate_list (iterator start, iterator end, T init) {
 
 }
 
-int main() {
+int run_code() {
 	int number_of_elements{500000000};
 	std::vector<int> values (number_of_elements);
 	int i{0};
